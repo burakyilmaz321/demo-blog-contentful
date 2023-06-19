@@ -7,6 +7,7 @@ services:
   - type: web
     name: blog_contentful
     runtime: python
+    rootDir: blog_contentful
     buildCommand: "./build.sh"
     startCommand: "gunicorn blog_contentful.wsgi"
     envVars:
