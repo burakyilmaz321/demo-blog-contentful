@@ -17,3 +17,5 @@ services:
         fromDatabase:
           name: blog_contentful
           property: connectionString
+      - key: PYTHON_VERSION
+        value: 3.11.4
