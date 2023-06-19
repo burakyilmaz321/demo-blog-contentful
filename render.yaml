@@ -2,6 +2,7 @@ databases:
   - name: blog_contentful
     databaseName: blog_contentful
     user: blog_contentful
+    plan: free
 
 services:
   - type: web
